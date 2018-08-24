@@ -1,0 +1,33 @@
+.Style1{font-family: 'Georgia',serif;
+font-size: 20px; 
+margin:0;
+color: #FEFFFF;
+word-wrap: break-word;}
+.Style2{font-family: 'Georgia',serif;
+font-size: 45px; 
+font-weight:700; 
+margin:0;
+color: #005D64;
+word-wrap: break-word;}
+.Style3{font-family: 'Georgia',serif;
+font-size: 25px; 
+font-weight:700; 
+margin:0;
+color: #005D64;
+word-wrap: break-word;}
+.Style4{font-family: 'Georgia',serif;
+font-size: 31px; 
+font-weight:700; 
+margin:0;
+color: #005D64;
+word-wrap: break-word;}
+.Style5{font-family: 'Georgia',serif;
+font-size: 15px; 
+margin:0;
+color: #005D64;
+word-wrap: break-word;}
+body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing: grayscale}
+.animhidden{opacity: 0}
+.animvisible{opacity: 1}
+.animhidden{opacity: 0}
+.animvisible{opacity: 1}
