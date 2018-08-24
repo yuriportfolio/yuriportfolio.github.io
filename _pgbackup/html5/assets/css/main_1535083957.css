@@ -1967,14 +1967,13 @@ button.style3:hover,
 }
 
 .box.style1.right .image {
-    left: 1px;
-    top: 1px;
-    bottom: 1px;
-    right: 1px;
+    left: 0;
 }
 
 .box.style1.right .image img {
+    right: -26px;
     column-fill: auto;
+    width: 534px;
 }
 
 .box.style1.right .inner {
