@@ -1606,7 +1606,6 @@ article:last-child {
 .image.fit {
     display: block;
     width: 100%;
-    text-align: center;
 }
 
 .image.left {
