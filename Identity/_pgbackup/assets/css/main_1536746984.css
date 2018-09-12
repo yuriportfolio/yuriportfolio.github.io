@@ -97,7 +97,7 @@ video {
     /*
 	font-weight: lighter
 */
-    background-color: #18191e;
+    background-color: rgba(243, 243, 243, 0);
     background-size: auto;
     letter-spacing: 1px;
     font-family: Caudex;
@@ -222,9 +222,6 @@ body {
     background-size: 100px 100px, cover,				cover;
     background-position: top left,		center center,		bottom center;
     background-attachment: relative;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px;
 }
 
 body:after {
@@ -275,9 +272,6 @@ textarea {
     select,
     textarea {
         font-size: 11pt;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 100px;
     }
 }
 
@@ -1129,14 +1123,11 @@ body.is-preload #main {
 }
 
 #wrapper > * {
-    height: 683px;
+    height: -1px;
     text-transform: uppercase;
     white-space: pre-line;
     position: relative;
     z-index: 0;
-    width: 725-;
-    background-color: #18191e;
-    transition: background-color 1022ms ease;
 }
 
 #wrapper:before {

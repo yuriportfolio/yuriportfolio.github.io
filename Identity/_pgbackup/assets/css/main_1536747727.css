@@ -275,9 +275,6 @@ textarea {
     select,
     textarea {
         font-size: 11pt;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 100px;
     }
 }
 
@@ -1135,8 +1132,6 @@ body.is-preload #main {
     position: relative;
     z-index: 0;
     width: 725-;
-    background-color: #18191e;
-    transition: background-color 1022ms ease;
 }
 
 #wrapper:before {

@@ -29,16 +29,9 @@
             <link href="../assets/css/main.css" rel="stylesheet" type="text/css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css">
         </head>
-        <body class="is-preload" style="   background-color: #18191e;display:grid;grid-template-columns:0fr 0fr 0fr 0fr;grid-template-rows:101px 212px 207px 369px;">
+        <body class="is-preload">
             <!-- Wrapper -->
-            <!-- Scripts -->
-            <script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
-            <div id="wrapper" class="foundation-mq" style="grid-area:1 / 1 / 2 / 2;">
+            <div id="wrapper" class="foundation-mq">
                 <!-- Main -->
                 <section id="main">
                     <header>
@@ -46,7 +39,7 @@
                                 <img src="images/avatar.jpg" alt="" width="201" height="201">
                             </a></span>
                         <h5 class="waves-effect waves-yellow hoverable h2">yuri gagarin</h5>
-                        <span class="white-text center-align waves-effect waves-circle h6 waves-light materialboxed">24 years</span>
+                        <span class="white-text center-align waves-effect waves-circle h6 waves-light materialboxed">24 years<div id="two" class="button">Revealing</div></span>
                         <p style="margin-right: 15px; padding-right: -28px; right: 106px; left: 50px; top: 106px; bottom: 106px; position: relative; margin-left: -9px;"></p>
                         <span style="font-family: Alegreya Sans SC; font-size: 20px; font-weight: bolder; letter-spacing: 0px; bottom: 77px; color: #859e85;" class="text-lighten-3 flow-text left">- roi orienteted designer -</span>
                         <p></p>
@@ -89,6 +82,8 @@
 						</form>
 						<hr />
 						-->
+                    <footer>
+</footer>
                     <link>
                 </section>
                 <ul class="icons bottom-detail actions">
@@ -99,11 +94,25 @@
                         <a href="#" class="fa-instagram">Instagram</a>
                     </li>
                     <li>
-                        <a href="#" class="fa-facebook" style="right: 0;">Facebook</a>
+                        <a href="#" class="fa-facebook">Facebook</a>
                     </li>
                 </ul>
                 <!-- Footer -->
+                <footer id="footer" class="materialboxed">
+                    <ul class="copyright">
+                        <li>
+                            <b>© yuri gagarin</b>
+                        </li>
+                    </ul>
+                </footer>
             </div>
+            <!-- Scripts -->
+            <script>
+				if ('addEventListener' in window) {
+					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
+					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+				}
+			</script>
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
             <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
         </body>

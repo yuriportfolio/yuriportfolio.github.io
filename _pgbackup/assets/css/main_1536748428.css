@@ -183,7 +183,7 @@ html {
 }
 
 body {
-    background: #09090b;
+    background: #242943;
 }
 
 body.is-preload *,
@@ -251,11 +251,11 @@ a {
 
 a:hover {
     border-bottom-color: transparent;
-    color: #ec8435 !important;
+    color: #9bf1ff !important;
 }
 
 a:active {
-    color: #3700ff !important;
+    color: #53e3fb !important;
 }
 
 strong,
