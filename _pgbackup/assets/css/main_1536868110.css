@@ -90,7 +90,7 @@ video {
 font: inherit*/
     vertical-align: baseline;
     right: 0;
-    background-color: #433f3f;
+    background-color: #494949;
     font-family: Acme;
 
     /*
@@ -184,12 +184,12 @@ html {
     box-sizing: border-box;
 }
 
-/*
 *,
 *:before,
 *:after {
     box-sizing: inherit;
-}*/
+}
+
 body {
     background: rgba(9, 9, 11, 0);
 }

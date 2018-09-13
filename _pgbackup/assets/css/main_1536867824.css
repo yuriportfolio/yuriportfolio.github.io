@@ -85,12 +85,13 @@ mark,
 audio,
 video {
     margin: 0 12px -11px -12-;
+    font-size: 105%;
 
     /*
 font: inherit*/
     vertical-align: baseline;
     right: 0;
-    background-color: #433f3f;
+    background-color: #494949;
     font-family: Acme;
 
     /*
@@ -184,12 +185,12 @@ html {
     box-sizing: border-box;
 }
 
-/*
 *,
 *:before,
 *:after {
     box-sizing: inherit;
-}*/
+}
+
 body {
     background: rgba(9, 9, 11, 0);
 }
