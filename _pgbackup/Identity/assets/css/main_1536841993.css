@@ -674,6 +674,10 @@ ul {
     padding-left: 1em;
 }
 
+ul li {
+    padding-left: 0.5em;
+}
+
 ul.alt {
     list-style: none;
     padding-left: 0;
@@ -712,6 +716,11 @@ ul.actions {
     list-style: none;
     margin-left: -0.75em;
     padding-left: 0;
+}
+
+ul.actions li {
+    padding: 0 0 0 0.75em;
+    vertical-align: middle;
 }
 
 ul.actions.special {
@@ -830,7 +839,7 @@ ul.icons li {
     left: 0;
     object-position: 28px;
     position: relative;
-    box-shadow: inset 1px 6px 0 -4px #ff2424;
+    box-shadow: inset 10px 65px 68px -41px #ff2424;
     transition: opacity 4ms ease-in-out 3ms;
     margin-left: 0;
 }
@@ -1014,7 +1023,7 @@ button:disabled,
 #main .avatar {
     position: relative;
     display: block;
-    margin-bottom: -29.5em;
+    margin-bottom: 1.5em;
 }
 
 #main .avatar img {
@@ -1126,7 +1135,7 @@ body.is-preload #main {
     position: relative;
     z-index: 0;
     width: 725-;
-    background-color: rgba(24, 25, 30, 0.12);
+    background-color: #18191e;
     transition: background-color 1022ms ease;
 }
 
