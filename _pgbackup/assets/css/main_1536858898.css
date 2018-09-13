@@ -84,17 +84,14 @@ time,
 mark,
 audio,
 video {
-    margin: 0 12px -11px -12-;
-    font-size: 105%;
+    margin: 0 0 0 0px;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
     font: inherit;
     vertical-align: baseline;
     right: 0;
-    background-color: #494949;
-    font-family: Acme;
-    font-weight: inherit;
-    padding-left: 14px;
-    padding-right: -14px;
-    padding-bottom: 1px;
+    text-align: center;
 }
 
 article,
@@ -2716,10 +2713,6 @@ button.next:active:after,
     button.next,
     .button.next {
         padding-right: 5em;
-        padding-top: -116px;
-        margin-top: -50px;
-        padding-bottom: 0;
-        top: -1px;
     }
 }
 
@@ -3418,6 +3411,7 @@ body.is-preload #header.alt {
     -webkit-align-items: center;
     -ms-align-items: center;
     align-items: center;
+    background-image: url("../../images/banner.jpg");
     display: -moz-flex;
     display: -webkit-flex;
     display: -ms-flex;
@@ -3569,13 +3563,7 @@ body.is-preload #banner > .inner {
 
 @media screen and (max-width: 1280px) {
     #banner {
-        background-color: rgba(123, 34, 255, 0.05);
-        margin-top: 58px;
-        padding-top: 4px;
-        bottom: -10px;
-        top: -39px;
-        background-clip: border-box;
-        box-shadow: inset -8px 8px 21px #2100ff;
+        background-attachment: scroll;
     }
 }
 
