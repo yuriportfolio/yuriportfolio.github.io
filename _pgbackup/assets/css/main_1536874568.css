@@ -84,18 +84,20 @@ time,
 mark,
 audio,
 video {
+    margin: 0 12px -11px -12-;
+
     /*
 font: inherit*/
     vertical-align: baseline;
-    background-color: #18191e;
+    right: 0;
+    background-color: #433f3f;
     font-family: Acme;
 
     /*
 font-weight: inherit*/
-    object-position: -3px;
-    padding-bottom: -77px;
-    margin: 50px -4px 113px 26-;
-    width: 1600;
+    padding-left: 14px;
+    padding-right: -14px;
+    padding-bottom: 1px;
 }
 
 article,
@@ -114,9 +116,6 @@ section {
 
 body {
     line-height: 1;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0px;
 }
 
 ol,
@@ -293,12 +292,7 @@ h6 {
     color: #ffffff;
     font-weight: 600;
     line-height: 1.65;
-    display: grid;
-    grid-template-columns: 3fr;
-    grid-template-rows: 54px 0px 0px 55px 0px 0px;
-    margin: 0 0 1;
-    text-align: right;
-    letter-spacing: 3px;
+    margin: 0 0 1em 0;
 }
 
 h1 a,
@@ -315,9 +309,6 @@ h6 a {
 
 h1 {
     font-size: 2.5em;
-    display: grid;
-    grid-template-columns: 73fr;
-    grid-template-rows: 130px 125px;
 }
 
 h2 {
@@ -3591,7 +3582,7 @@ body.is-preload #banner > .inner {
         bottom: -10px;
         top: -39px;
         background-clip: border-box;
-        box-shadow: inset 0px 11px 21px rgba(69, 0, 255, 0.63);
+        box-shadow: inset 0px 11px 21px #2100ff;
     }
 }
 

@@ -114,9 +114,6 @@ section {
 
 body {
     line-height: 1;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0px;
 }
 
 ol,
@@ -316,8 +313,8 @@ h6 a {
 h1 {
     font-size: 2.5em;
     display: grid;
-    grid-template-columns: 73fr;
-    grid-template-rows: 130px 125px;
+    grid-template-columns: 8fr 1fr 1fr;
+    grid-template-rows: 168px 84px 100px;
 }
 
 h2 {
