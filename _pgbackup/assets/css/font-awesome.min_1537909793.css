@@ -3043,3 +3043,7 @@
     overflow: visible;
     clip: auto;
 }
+
+.materialboxed {
+    background-color: rgba(0, 0, 0, 0.47);
+}
