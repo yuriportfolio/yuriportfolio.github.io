@@ -280,7 +280,7 @@ i {
 }
 
 p {
-    margin: 0 0 2em 0;
+    margin: 0 0 2em 36px;
 }
 
 /*
@@ -310,6 +310,7 @@ h6 a {
     border-left: 0 solid;
     border-right: 0 solid;
     border-style: solid;
+    margin-left: 43px;
 }
 
 h1 {
@@ -3587,7 +3588,6 @@ body.is-preload #banner > .inner {
         bottom: -10px;
         top: -39px;
         background-clip: border-box;
-        box-shadow: inset 0px 11px 21px rgba(69, 0, 255, 0.63);
     }
 }
 
