@@ -86,16 +86,15 @@ audio,
 video {
     /*
 font: inherit*/
-    vertical-align: baseline;
     background-color: #18191e;
     font-family: Acme;
 
     /*
 font-weight: inherit*/
-    object-position: -3px;
-    padding-bottom: -77px;
-    margin: 50px -4px 113px 26-;
-    width: 1600;
+    object-position: 0px;
+    margin: 50px -4px -151px -37-;
+    margin-left: -37-;
+    margin-right: -4px;
 }
 
 article,
@@ -310,7 +309,8 @@ h6 a {
     border-left: 0 solid;
     border-right: 0 solid;
     border-style: solid;
-    margin-left: 43px;
+    margin-left: 33px;
+    background-color: #5524eb;
 }
 
 h1 {
@@ -2870,7 +2870,7 @@ button:disabled,
 }
 
 .tiles article:after {
-    background-color: rgba(36, 41, 67, 0.25);
+    background-color: #000000;
     content: '';
     display: block;
     height: 100%;
@@ -2911,11 +2911,11 @@ button:disabled,
 }
 
 .tiles article:nth-child(6n - 3):before {
-    background-color: #ec8d81;
+    background-color: #393939;
 }
 
 .tiles article:nth-child(6n - 2):before {
-    background-color: #e7b788;
+    background-color: #999795;
 }
 
 .tiles article:nth-child(6n - 1):before {
@@ -2928,16 +2928,17 @@ button:disabled,
 
 @media screen and (max-width: 1280px) {
     .tiles article {
-        padding: 4em 3em 2em 3em ;
+        padding: 4em 3em 2em 8em;
         height: 30vh;
         max-height: 30em;
         min-height: 20em;
+        position: relative;
     }
 }
 
 @media screen and (max-width: 980px) {
     .tiles article {
-        width: 50% !important;
+        width: 50%;
     }
 }
 
@@ -3999,5 +4000,6 @@ body.is-menu-visible #menu .inner {
 
 .link {
     backface-visibility: hidden;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(89, 47, 47, 0);
+    margin-left: 2px;
 }
