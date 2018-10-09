@@ -45,7 +45,7 @@ function setup(){
 	smooth();
 	
 	padding_top = (height - inner_square)/8;
-	padding_side = (width - inner_square)/12;
+	padding_side = (width - inner_square)/6;
 	
 	for(var i = 0; i < nums; i++){
 		var p = new Particle();
